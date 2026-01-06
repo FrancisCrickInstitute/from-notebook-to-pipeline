@@ -1,6 +1,10 @@
 # From notebook to pipeline
 Work in progress for a new intermediate image analysis training workshop
 
+## Repo content
+* The `Data` folder contains images of cells which have been stained for *nuclei (Hoescht, ch0)*, *tubulin (AlexaFluor568, ch1)*, *actin (AlexaFluor488, ch2)*, and *YAP/TAZ (AlexaFluor647, ch3)* and imaged with fluorescent microscopy. You can find more information about this [public image dataset](https://idr.openmicroscopy.org/webclient/?show=plate-5679) in [the associated publication](https://www.nature.com/articles/sdata201718).
+* The `Scripts` folder contains two notebooks to perform an image analysis pipeline on a single image, or on all images in the `Data` folder, respectively. The pipeline consists in a segmentation task, followed by morphological and intensity quantifications per object.
+
 ## Local setup
 A step-by-step guide to downloading the repo and running the notebooks is presented below. **You only need to perform Steps 1-3 once.** Every subsequent time you want to run the code, skip straight to step 4.
 ### Step 1 - download the content of the repo
