@@ -9,11 +9,11 @@ A step-by-step guide to downloading the repo and running the notebooks is presen
 
 Click on the small arrow on the `<> Code` button above and then click `Download Zip`:
 
-![]()
+![download_ZIP.png](Assets/download_ZIP.png)
  
 When the download completes, unzip the contents. You should now have a folder that looks like this:
 
-![]()
+![folder.png](Assets/folder.png)
 
 Below, we will use the requirements file to set up a Python environment to run the Jupyter notebooks contained in the `Scripts` folder.
 
