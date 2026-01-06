@@ -1,0 +1,7 @@
+scikit-image
+imagecodecs
+pandas
+numpy
+scipy
+jupyterlab
+openpyxl
